@@ -55,3 +55,45 @@ footer {
     text-align: center;
     padding: 20px;
 }
+
+button{
+    padding: 10px 20px;
+    background-color: #1e293b;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #334155;
+}
+
+/* Botão dark mode */
+#btnDarkmode {
+    margin-top: 15px;
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Classe do modo escuro */
+.dark-mode {
+    background-color: #0f172a;
+    color: #f1f5f9;
+}
+
+.dark-mode section {
+    background-color: #1e293b;
+}
+
+.dark-mode header,
+.dark-mode footer {
+    background-color: #020617;
+}
+
+#listaProjetos {
+    display: none;
+    margin-top: 15px;
+}
