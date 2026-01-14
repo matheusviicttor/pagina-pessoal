@@ -10,16 +10,18 @@ botao.addEventListener("click", function () {
     spanContador.textContent = contador;
 });
 
-const btnDarkMode = document.ElementById("btnDarkMode");
+// Dark mode
+const btnDarkMode = document.getElementById("btnDarkMode");
 
-btnDarkMode.addEventListener("click", function() {
-    document.body.classlist.toggle("dark-mode");
+btnDarkMode.addEventListener("click", function () {
+    document.body.classList.toggle("dark-mode");
 });
 
+// Mostrar / esconder projetos
 const btnProjetos = document.getElementById("btnProjetos");
-const listaProjetos = document.ElementById("listaProjetos");
+const listaProjetos = document.getElementById("listaProjetos");
 
-btnProjetos.addEventListener("click", function() {
+btnProjetos.addEventListener("click", function () {
     if (listaProjetos.style.display === "none") {
         listaProjetos.style.display = "block";
         btnProjetos.textContent = "Esconder projetos";
