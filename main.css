@@ -2,98 +2,107 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
-    background-color: #f4f6f8;
-    color: #333;
+    background-color: #f1f5f9;
+    color: #0f172a;
     line-height: 1.6;
 }
 
+/* Header */
 header {
-    background-color: #1e293b;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
     color: white;
-    padding: 30px;
-    text-align: center;
+    padding: 60px 20px;
 }
 
-header h1 {
-    margin-bottom: 10px;
+header p {
+    margin: 15px 0;
+    opacity: 0.9;
 }
 
+#btnDarkMode {
+    margin-top: 20px;
+}
+
+/* Layout*/
 main {
-    max-width: 900px;
-    margin: 30px auto;
+    max-width: 100px;
+    margin: -40px auto 40px;
     padding: 0 20px;
 }
 
 section {
     background-color: white;
-    padding: 25px;
-    margin-bottom: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0,.05);
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 14px;
+    box-shadow: 0 10px 25px rgba(0.0.0.0.0.08);
 }
 
+/* Titulos */
+
 section h2 {
-    margin-bottom: 15px;
-    color: #1e293b;
+    margin-bottom: 20px;
+    color: #0f172a;
+    font-size: 1.5rem;
 }
+
+/* Listas */
 
 ul {
     list-style: none;
 }
 
-ul li {
-    margin-bottom: 8px;
+ul li::before {
+    content: "✔";
+    margin-right: 10px;
+    color: #2563eb;
 }
 
+/* Botões */
+button {
+    padding: 12px 24px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.2s ease;
+}
+
+button:hover {
+    background: #1d4ed8;
+    transform: translateY(-2px);
+}
+
+/*Projetos */
+#listaProjetos {
+    display: none;
+    margin-top: 20px;
+}
+
+/* Footer */
 footer {
-    background-color: #1e293b;
-    color: white;
+    background-color: #020617;
+    color: #e5e7eb;
     text-align: center;
-    padding: 20px;
+    padding: 25px;
 }
 
-button{
-    padding: 10px 20px;
-    background-color: #1e293b;
-    color: white;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-}
-
-button:hover{
-    background-color: #334155;
-}
-
-/* Botão dark mode */
-#btnDarkMode {
-    margin-top: 15px;
-    padding: 8px;
-    border-radius: 6px;
-    border: none;
-    cursor: pointer;
-}
-
-/* Classe do modo escuro */
+/*DARK MODE */
 .dark-mode {
-    background-color: #0f172a;
-    color: #f1f5f9;
+    background-color: #020617;
+    color: #e5e7eb;
 }
 
 .dark-mode section {
-    background-color: #1e293b;
+    background-color: #0f172a;
+    color: #e5e7eb;
 }
-
-.dark-mode header,
-.dark-mode footer {
-    background-color: #020617;
-}
-
-#listaProjetos {
-    display: none;
-    margin-top: 15px;
-}
+ .dark-mode footer {
+    background-color: #000;
+ }
