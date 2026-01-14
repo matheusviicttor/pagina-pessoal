@@ -29,17 +29,18 @@ header p {
 
 /* Layout*/
 main {
-    max-width: 100px;
-    margin: -40px auto 40px;
-    padding: 0 20px;
+    max-width: 1000px;
+    margin: 0;
+    padding: 40px 20px;
 }
 
 section {
+    width: 100%;
     background-color: white;
-    padding: 30px;
-    margin-bottom: 25px;
+    padding: 40px;
+    margin-bottom: 30px;
     border-radius: 14px;
-    box-shadow: 0 10px 25px rgba(0.0.0.0.0.08);
+    box-shadow: 0 10px 25px rgba(0.0.0.0.08);
 }
 
 /* Titulos */
