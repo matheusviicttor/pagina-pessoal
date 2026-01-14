@@ -10,14 +10,14 @@ botao.addEventListener("click", function () {
     spanContador.textContent = contador;
 });
 
-const btnDarkMode = documnentElementById("btnDarkMode");
+const btnDarkMode = document.ElementById("btnDarkMode");
 
 btnDarkMode.addEventListener("click", function() {
-    document.bodyclasslist.toggle("dark-mode")
+    document.body.classlist.toggle("dark-mode");
 });
 
 const btnProjetos = document.getElementById("btnProjetos");
-const listaProjetos = documnentElementById("listaProjetos");
+const listaProjetos = document.ElementById("listaProjetos");
 
 btnProjetos.addEventListener("click", function() {
     if (listaProjetos.style.display === "none") {

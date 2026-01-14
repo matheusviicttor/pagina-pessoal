@@ -42,7 +42,7 @@ section h2 {
 }
 
 ul {
-    list-style: nome;
+    list-style: none;
 }
 
 ul li {
@@ -70,7 +70,7 @@ button:hover{
 }
 
 /* Botão dark mode */
-#btnDarkmode {
+#btnDarkMode {
     margin-top: 15px;
     padding: 8px;
     border-radius: 6px;
